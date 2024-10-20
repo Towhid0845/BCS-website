@@ -1,0 +1,45 @@
+@import "../variable/color";
+
+.our-partners {
+  padding-top: 100px;
+
+  .text {
+    h4 {
+      font-size: 36px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 22px;
+      font-weight: 400;
+      padding-top: 14px;
+    }
+  }
+
+  .logos {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      li {
+        width: 19%;
+        display: inline-block;
+        background-color: $white;
+        border: 1px solid #ccc;
+        margin: 2px;
+        transition: all linear .2s;
+        padding: 14px;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

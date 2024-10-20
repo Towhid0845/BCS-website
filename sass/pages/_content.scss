@@ -1,0 +1,134 @@
+@import "../variable/color";
+
+.content-page {
+  padding-top: 40px;
+}
+
+.content-page .content-left-menu {
+  width: 300px;
+  min-height: 600px;
+  // background: url(../images/content-left-menu.jpg) no-repeat center;
+  background-size: cover;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+
+  &::before {
+    position: absolute;
+    bottom: -50px;
+    right: -88px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(196, 140, 12, 0.2);
+    content: "";
+    transform: rotate(45deg);
+  }
+}
+
+.content-page .content-left-menu .overlay {
+  width: 100%;
+  height: 100%;
+  // background: linear-gradient(180deg, rgba(33, 197, 142, 0.9) 0%, rgba(119, 139, 226, .9) 77%);
+  padding: 0 0;
+  border-radius: 10px;
+}
+
+.content-page .content-left-menu .overlay .menu-list {
+  margin-top: 0 !important;
+}
+
+.content-page .content-left-menu .overlay h2 {
+  color: $white;
+  background-color: $black;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding: 20px 30px;
+}
+
+.content-page .content-left-menu .overlay ul li a {
+  color: $black;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  padding: 10px 30px;
+  padding-left: 35px;
+  transition: all linear .2s;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+
+  &:hover {
+    color: $themeColor;
+  }
+}
+
+.content-page .content-left-menu .overlay ul li a::after {
+  width: 3px;
+  height: 100%;
+  background-color: $themeColor;
+  position: absolute;
+  top: 50%;
+  left: calc(0% - 0px);
+  transform: translateY(-50%);
+  content: "";
+  transition: all linear .2s;
+  opacity: 0;
+}
+.content-page .content-left-menu .overlay ul li{
+  position: relative;
+  i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}
+.content-page .content-left-menu .overlay ul li a:hover::after {
+  opacity: 1;
+}
+
+.content-page .content-left-menu .overlay ul li a.active-menu {
+  color: $themeColor;
+}
+
+.content-page .content-left-menu .overlay ul li a.active-menu::after {
+  opacity: 1;
+}
+
+.content-page .right-info {
+  width: 100%;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-page .right-info .image {
+  height: 500px;
+  width: 100%;
+}
+
+.content-page .right-info .image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-page .right-info .content {
+  padding-top: 40px;
+  padding: 40px;
+}
+
+.content-page .right-info .content h2 {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 25px;
+}
+
+.content-page .right-info .content p {
+  padding-bottom: 20px;
+}
+
+.content-page .right-info .content p:last-child {
+  padding-bottom: 0px;
+}

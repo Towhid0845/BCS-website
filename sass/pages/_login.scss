@@ -1,0 +1,79 @@
+@import "../variable/color";
+
+.login-page {
+  width: 100%;
+  padding: 140px 0 60px;
+}
+
+.login-page .register-form {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.login-page .register-form .form-heading h2 {
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+
+.login-page .register-form .input-group {
+  position: relative;
+}
+
+.login-page .register-form input {
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.login-page .register-form .input-group i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+.login-page .input-group>.form-control:focus,
+.input-group>.form-select:focus {
+  z-index: 0;
+}
+
+.login-page .form-check-input:checked {
+  background-color: $themeColor !important;
+  border-color: $themeColor !important;
+}
+
+.login-page .form-check label {
+  color: #666;
+  font-size: 14px;
+}
+
+.login-page .form-check {
+  padding-left: 1.3em;
+}
+
+.login-page .input-group p {
+  color: #353535;
+  margin-top: 10px;
+}
+
+.login-page .input-group a {
+  color: $themeColor;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.login-page .submit-button button {
+  background-color: $themeColor;
+  color: #fff;
+  padding: 8px 25px;
+  margin-top: 25px;
+}
+
+.login-page .input-group .forgot {
+  color: #353535;
+  margin-left: 0;
+}

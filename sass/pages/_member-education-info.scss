@@ -1,0 +1,16 @@
+@import "../variable/color";
+
+.member-panel {
+  .right-content {
+    .info-block {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #aeaeae;
+      padding-bottom: 15px;
+
+      &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

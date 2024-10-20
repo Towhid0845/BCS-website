@@ -1,0 +1,80 @@
+@import "../variable/color";
+
+.messages {
+  padding-top: 100px;
+
+  .messages-main {
+    .message-item {
+      .image {
+        height: 300px;
+        border-radius: 10px;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          border-radius: 10px;
+        }
+      }
+
+      .info {
+        background-color: #f1f1f1;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 50px;
+        padding: 40px;
+        position: relative;
+        border-right: 5px solid $themeColor;
+
+        &::before {
+          position: absolute;
+          top: 40px;
+          left: -18px;
+          width: 35px;
+          height: 35px;
+          background-color: #f1f1f1;
+          content: "";
+          transform: rotate(45deg);
+          border-radius: 4px;
+        }
+
+        i {
+          position: absolute;
+          font-size: 24px;
+          top: 40px;
+          right: 40px;
+        }
+
+        h4 {
+          font-size: 24px;
+          font-style: italic;
+          margin-bottom: 14px;
+          padding-right: 60px;
+        }
+
+        p {
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+
+        a {
+          margin-top: 10px;
+          font-size: 18px;
+          color: $secondary;
+          text-decoration: underline;
+          transition: all linear .2s;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+
+        strong {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+}

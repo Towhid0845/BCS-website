@@ -1,0 +1,119 @@
+@import "../variable/color";
+
+.member-details .banner-image {
+  width: 100%;
+  height: 340px;
+  position: relative;
+  z-index: 99;
+}
+
+.member-details .banner-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.member-details .banner-image::before {
+  width: 200px;
+  height: 300px;
+  border: 1px solid $themeColor;
+  position: absolute;
+  top: -31px;
+  left: -43px;
+  content: "";
+  z-index: -1;
+}
+
+.member-details .side-information {
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 24px;
+}
+
+.member-details .text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0 30px 0;
+  position: relative;
+}
+
+.member-details .text h2::before {
+  width: 100px;
+  height: 3px;
+  background-color: $themeColor;
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  content: "";
+}
+
+.member-details .side-information .img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 160px;
+  background-color: #fff;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+
+.member-details .side-information .img img {
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.member-details .side-information .text h3 {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.member-details .side-information .text h5 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 12px;
+  color: $themeColor;
+}
+
+.member-details .side-information .text span {
+  font-size: 14px;
+}
+
+.member-details .side-information.two h3 {
+  font-size: 22px;
+  position: relative;
+}
+
+.member-details .side-information.two h3::before {
+  width: 90px;
+  height: 3px;
+  background-color: $themeColor;
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  content: "";
+}
+
+.member-details .side-information.two h6 {
+  color: $themeColor;
+}
+
+.member-details .side-information.two li {
+  margin-bottom: 8px;
+}
+
+.member-details .side-information.two li i {
+  font-size: 14px;
+}
+
+.member-details .side-information.two a {
+  transition: all linear .2s;
+}
+
+.member-details .side-information.two a:hover {
+  color: $themeColor;
+}

@@ -1,0 +1,930 @@
+@media (min-width: 1400px) and (max-width: 1799px) {
+  .common-container {
+    max-width: 1320px;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 30px; }
+
+  nav .navbar-nav {
+    padding-left: 0; }
+
+  .navbar-brand img {
+    width: 350px; }
+
+  .banner ul {
+    position: absolute;
+    bottom: -40px;
+    left: 0; }
+  .banner .image-slider .slider-item {
+    height: 364px; }
+
+  .counter .icon i {
+    font-size: 46px; }
+  .counter .text h4 {
+    font-size: 34px !important; }
+
+  .become-a-member .benifits-body .become-member-title h4 {
+    font-size: 56px; }
+
+  .event-part .event-main {
+    padding: 30px 50px; }
+    .event-part .event-main .title h2 {
+      font-size: 30px; }
+    .event-part .event-main .event-item {
+      margin: 0 10px; }
+      .event-part .event-main .event-item .image {
+        height: 147px; }
+
+  .messages .messages-main .message-item .image {
+    height: 249px; }
+  .messages .messages-main .message-item .info {
+    height: 248px;
+    margin-left: 15px;
+    padding: 20px; }
+    .messages .messages-main .message-item .info i {
+      right: 16px; }
+    .messages .messages-main .message-item .info a {
+      margin-top: 6px;
+      font-size: 16px; }
+    .messages .messages-main .message-item .info h4 {
+      padding-right: 0;
+      font-size: 22px;
+      margin-bottom: 8px; }
+
+  .gallery .gallery-main .image {
+    height: 233px; }
+
+  .content-page .right-info .image {
+    height: 364px;
+    width: 100%; }
+
+  .gallery-main .image {
+    height: 232px; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .become-member-panel .left-sidebar {
+    width: 107%; }
+  .become-member-panel .right-content {
+    width: 97%;
+    margin-left: auto; }
+  .become-member-panel .payment-invoice-pdf .header-logo img {
+    width: 350px !important; }
+  .become-member-panel .payment-invoice-pdf .invoice-footer::after {
+    width: 195px;
+    right: -149px; }
+
+  .member-panel .left-sidebar {
+    width: 107%; }
+  .member-panel .right-content {
+    width: 97%;
+    margin-left: auto; }
+
+  .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .common-container {
+    max-width: 1140px;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 30px; }
+
+  nav .navbar-nav {
+    padding-left: 0; }
+
+  .navbar-brand img {
+    width: 350px; }
+
+  .banner ul {
+    bottom: -35px; }
+  .banner .image-slider .slider-item {
+    height: 314px; }
+  .banner .banner-item .text-slider h1 {
+    font-size: 30px; }
+
+  .counter .icon i {
+    font-size: 46px; }
+  .counter .text h4 {
+    font-size: 34px !important; }
+
+  .become-a-member .benifits-body .become-member-title h4 {
+    font-size: 56px; }
+
+  .event-part .event-main {
+    padding: 20px 40px; }
+    .event-part .event-main .event-item {
+      margin: 0 10px; }
+      .event-part .event-main .event-item .image {
+        height: 140px; }
+    .event-part .event-main .title h2 {
+      font-size: 30px; }
+
+  .messages .messages-main .message-item .image {
+    height: 249px; }
+  .messages .messages-main .message-item .info {
+    height: 248px;
+    margin-left: 15px;
+    padding: 20px; }
+    .messages .messages-main .message-item .info i {
+      right: 16px; }
+    .messages .messages-main .message-item .info a {
+      margin-top: 6px;
+      font-size: 16px; }
+    .messages .messages-main .message-item .info h4 {
+      padding-right: 0;
+      font-size: 22px;
+      margin-bottom: 8px; }
+
+  .gallery .gallery-main .image {
+    height: 201px; }
+
+  footer .footer-about img {
+    width: 100% !important; }
+  footer .footer-about p {
+    padding-right: 50px; }
+
+  .content-page .content-left-menu {
+    width: 100% !important; }
+  .content-page .right-info .image {
+    height: 313px;
+    width: 100%; }
+
+  .activities-details-main .attach-file {
+    width: auto; }
+
+  .gallery-main .image {
+    height: 199px; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .member-top-search ul li {
+    margin-right: 6px; }
+
+  .member-list-body .member-list-item .img {
+    width: 110px;
+    height: 110px; }
+  .member-list-body .member-list-item .more-details a {
+    padding: 7px 12px;
+    font-size: 13px; }
+  .member-list-body .item-big-info h3 {
+    font-size: 18px; }
+
+  .login-3 .informeson p {
+    padding-right: 70px; }
+
+  .login-page .image img {
+    width: 100% !important; }
+
+  .become-member-panel .left-sidebar {
+    width: 110%; }
+    .become-member-panel .left-sidebar .navigation-menu ul li a {
+      font-size: 14px;
+      padding: 10px 16px; }
+      .become-member-panel .left-sidebar .navigation-menu ul li a .arrow {
+        width: 20px;
+        text-align: right; }
+  .become-member-panel .right-content {
+    width: 97%;
+    margin-left: auto; }
+    .become-member-panel .right-content .header-top .warn span {
+      font-size: 15px; }
+    .become-member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+    .become-member-panel .right-content .inner-content .payment-invoice-pdf .header-logo img {
+      width: 300px !important; }
+    .become-member-panel .right-content .inner-content .payment-invoice-pdf .invoice-footer::after {
+      width: 220px;
+      right: -127px; }
+
+  .member-panel .left-sidebar {
+    width: 110%; }
+    .member-panel .left-sidebar .navigation-menu ul li a {
+      font-size: 14px;
+      padding: 10px 16px; }
+      .member-panel .left-sidebar .navigation-menu ul li a .arrow {
+        width: 20px;
+        text-align: right; }
+  .member-panel .right-content {
+    width: 97%;
+    margin-left: auto; }
+    .member-panel .right-content .header-top .warn span {
+      font-size: 15px; }
+    .member-panel .right-content .dashboard-info .info-block {
+      padding: 20px !important; }
+
+  .point-calculator .calculator-body .sub-heading h3 {
+    font-size: 22px;
+    margin-left: 0; }
+  .point-calculator .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .common-container {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 30px; }
+
+  .banner ul {
+    display: none !important; }
+  .banner .image-slider .slider-item {
+    height: 263px; }
+  .banner .banner-item .text-slider h1 {
+    font-size: 26px; }
+
+  .counter .text h4 {
+    font-size: 28px !important; }
+  .counter .text p {
+    font-size: 16px !important; }
+  .counter .icon i {
+    font-size: 36px; }
+
+  .become-a-member .benifits-body {
+    padding: 25px; }
+    .become-a-member .benifits-body::before {
+      display: none !important; }
+    .become-a-member .benifits-body .become-member-title h4 {
+      font-size: 54px; }
+
+  .event-part .event-main {
+    padding: 23px 43px !important; }
+    .event-part .event-main .title h2 {
+      font-size: 28px; }
+    .event-part .event-main .event-item {
+      margin: 0 8px; }
+      .event-part .event-main .event-item .image {
+        height: 120px; }
+
+  .messages .messages-main .message-item .image {
+    height: 190px; }
+  .messages .messages-main .message-item .info {
+    height: 266px;
+    margin-left: 10px;
+    padding: 20px; }
+    .messages .messages-main .message-item .info h4 {
+      font-size: 18px;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      padding-right: 0; }
+    .messages .messages-main .message-item .info i {
+      display: none; }
+
+  .gallery .gallery-main .image {
+    height: 169px; }
+
+  footer .footer-about img {
+    width: 100% !important; }
+  footer .footer-about p {
+    padding-right: 0; }
+
+  .content-page .content-left-menu {
+    width: 100% !important; }
+  .content-page .right-info .image {
+    height: 226px;
+    width: 100%; }
+
+  .activities-details-main .attach-file {
+    width: auto; }
+
+  .gallery-main .image {
+    height: 223px; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .news-details .details-info .img {
+    width: 100%;
+    height: 435px; }
+  .news-details .details-info .text h1 {
+    font-size: 30px; }
+
+  .login-page .image img {
+    width: 100% !important; }
+  .login-page .register-form .form-heading h2 {
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 30px; }
+
+  .become-member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .become-member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+  .become-member-panel .payment-invoice-pdf .header-logo img {
+    width: 300px !important; }
+  .become-member-panel .payment-invoice-pdf .invoice-footer::after {
+    width: 204px;
+    right: -149px; }
+
+  .member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+
+  .point-calculator .calculator-body .sub-heading h3 {
+    font-size: 22px;
+    margin-left: 0; }
+  .point-calculator .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .common-container {
+    max-width: 720px;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 30px; }
+
+  .banner ul {
+    display: none !important; }
+  .banner .image-slider .slider-item {
+    height: 296px; }
+  .banner .banner-item .text-slider {
+    position: relative;
+    padding: 30px 0; }
+
+  .counter .counter-item-main {
+    padding: 20px 0; }
+  .counter .icon i {
+    font-size: 40px; }
+  .counter .counter-main .member-item {
+    margin: 20px 0; }
+  .counter .counter-main .text h4 {
+    font-size: 28px; }
+
+  .become-a-member .benifits-body::before {
+    display: none; }
+  .become-a-member .benifits-body .promo_area {
+    display: none; }
+  .become-a-member .benifits-body .member-btn {
+    text-align: left !important; }
+  .become-a-member .benifits-body .become-member-title {
+    text-align: left !important;
+    padding: 14px 0; }
+    .become-a-member .benifits-body .become-member-title h4 {
+      font-size: 40px; }
+
+  .event-part .event-main {
+    padding: 20px 46px;
+    margin-bottom: 30px; }
+    .event-part .event-main .title h2 {
+      font-size: 30px; }
+    .event-part .event-main .event-item {
+      margin: 0 10px; }
+      .event-part .event-main .event-item .image {
+        height: 137px; }
+
+  .messages .message-item {
+    margin-bottom: 30px; }
+    .messages .message-item .info {
+      margin-left: 15px !important;
+      padding: 20px !important;
+      height: 244px !important; }
+      .messages .message-item .info i {
+        display: none; }
+      .messages .message-item .info h4 {
+        padding-right: 0 !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important; }
+    .messages .message-item .image {
+      height: 235px !important; }
+
+  .gallery .gallery-main .image {
+    height: 250px; }
+  .gallery .blog-item {
+    margin-bottom: 30px !important; }
+
+  footer .footer-about img {
+    width: 100%; }
+  footer .links {
+    margin-left: 0; }
+
+  .content-page .content-left-menu {
+    width: 100%;
+    min-height: auto;
+    position: unset;
+    margin-bottom: 40px; }
+    .content-page .content-left-menu::before {
+      display: none; }
+  .content-page .right-info .image {
+    height: 262px;
+    width: 100%; }
+
+  .contact-us {
+    padding-top: 60px; }
+    .contact-us .contact-info {
+      margin-top: 60px; }
+
+  .activities-details-main .attach-file {
+    width: auto; }
+
+  .gallery-main .image {
+    height: 337px; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .news-details .details-info .img {
+    width: 100%;
+    height: 435px; }
+  .news-details .details-info .text h1 {
+    font-size: 30px; }
+
+  .become-member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .become-member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .become-member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+  .become-member-panel .payment-invoice-pdf .header-logo img {
+    width: 250px !important; }
+  .become-member-panel .payment-invoice-pdf .invoice-footer::after {
+    width: 175px;
+    right: -109px; }
+
+  .member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+
+  .point-calculator .calculator-body .sub-heading h3 {
+    font-size: 22px;
+    margin-left: 0; }
+  .point-calculator .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .common-container {
+    max-width: 540px;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 30px; }
+
+  .banner ul {
+    display: none !important; }
+  .banner .image-slider .slider-item {
+    height: 219px; }
+  .banner .banner-item .text-slider {
+    position: relative;
+    padding: 30px 0; }
+
+  .counter .counter-item-main {
+    padding: 20px 0; }
+  .counter .icon i {
+    font-size: 40px; }
+  .counter .counter-main .member-item {
+    margin: 20px 0; }
+  .counter .counter-main .text h4 {
+    font-size: 28px; }
+
+  .become-a-member .benifits-body::before {
+    display: none; }
+  .become-a-member .benifits-body .promo_area {
+    display: none; }
+  .become-a-member .benifits-body .member-btn {
+    text-align: left !important; }
+  .become-a-member .benifits-body .become-member-title {
+    text-align: left !important;
+    padding: 14px 0; }
+    .become-a-member .benifits-body .become-member-title h4 {
+      font-size: 40px; }
+
+  .event-part .event-main {
+    padding: 20px 46px;
+    margin-bottom: 30px; }
+    .event-part .event-main .title h2 {
+      font-size: 30px; }
+    .event-part .event-main .event-item {
+      margin: 0 10px; }
+      .event-part .event-main .event-item .image {
+        height: 95px; }
+
+  .messages .message-item {
+    margin-bottom: 30px; }
+    .messages .message-item .info {
+      margin-left: 15px !important;
+      padding: 20px !important;
+      height: 244px !important; }
+      .messages .message-item .info i {
+        display: none; }
+      .messages .message-item .info h4 {
+        padding-right: 0 !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important; }
+    .messages .message-item .image {
+      height: 235px !important; }
+
+  .gallery .gallery-main .image {
+    height: 185px; }
+  .gallery .gallery-button ul.nav {
+    padding: 5px 25px; }
+  .gallery .blog-item {
+    margin-bottom: 30px !important; }
+
+  footer .footer-about img {
+    width: 100%; }
+  footer .links {
+    margin-left: 0; }
+  footer .pay-now img {
+    width: 100%; }
+  footer .branding {
+    text-align: left !important;
+    margin-top: 8px; }
+
+  .content-page .content-left-menu {
+    width: 100%;
+    min-height: auto;
+    position: unset;
+    margin-bottom: 40px; }
+    .content-page .content-left-menu::before {
+      display: none; }
+  .content-page .right-info .image {
+    height: 262px;
+    width: 100%; }
+
+  .contact-us {
+    padding-top: 60px; }
+    .contact-us .contact-info {
+      margin-top: 60px; }
+
+  .activities-details-main .attach-file {
+    width: auto;
+    margin-left: 0; }
+
+  .gallery-main .image {
+    height: 249px; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .news-details .details-info .img {
+    width: 100%;
+    height: 323px; }
+  .news-details .details-info .text h1 {
+    font-size: 20px; }
+
+  .become-member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .become-member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .become-member-panel .right-content .header-top {
+      padding: 10px 0; }
+      .become-member-panel .right-content .header-top .slider-item p {
+        padding-left: 0;
+        margin-top: 6px; }
+      .become-member-panel .right-content .header-top .action .notification i {
+        margin-top: 0; }
+    .become-member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-logo {
+      width: 100%;
+      text-align: center; }
+      .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-logo img {
+        width: 250px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-info {
+      width: 100%;
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-body-top .invoice-block {
+      float: unset;
+      width: 100%;
+      padding: 0 0; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-table {
+      width: 100%;
+      padding: 30px 0px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-body-info {
+      width: 100%;
+      padding: 0px 0px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-footer {
+      width: 100%; }
+      .become-member-panel .right-content .payment-invoice-pdf .invoice-footer::after {
+        display: none; }
+
+  .member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .member-panel .right-content .header-top {
+      padding: 10px 0; }
+      .member-panel .right-content .header-top .slider-item p {
+        padding-left: 0;
+        margin-top: 6px; }
+      .member-panel .right-content .header-top .action .notification i {
+        margin-top: 0; }
+    .member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+
+  .point-calculator .calculator-body .sub-heading h3 {
+    font-size: 22px;
+    margin-left: 0;
+    margin-top: 20px; }
+  .point-calculator .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+@media (max-width: 575.98px) {
+  .bread-crumb .text {
+    display: unset !important; }
+    .bread-crumb .text ul {
+      padding-top: 10px !important; }
+      .bread-crumb .text ul li::before {
+        right: 10px !important; }
+      .bread-crumb .text ul li a {
+        margin-left: 0 !important;
+        margin-right: 30px; }
+
+  .common-container {
+    max-width: 100%;
+    margin: 0 auto; }
+
+  .common-title h3 {
+    font-size: 26px; }
+
+  .banner ul {
+    display: none !important; }
+  .banner .image-slider .slider-item {
+    height: auto; }
+  .banner .text-slider {
+    padding: 30px 0; }
+    .banner .text-slider h1 {
+      font-size: 28px !important; }
+
+  .counter .icon i {
+    color: #21c58e;
+    font-size: 42px; }
+  .counter .counter-main .counter-item-main {
+    padding: 20px 0 !important; }
+  .counter .counter-main .member-item {
+    margin: 20px 0; }
+  .counter .counter-main .text h4 {
+    font-size: 32px; }
+
+  .become-a-member .benifits-body::before {
+    display: none; }
+  .become-a-member .benifits-body .promo_area {
+    display: none; }
+  .become-a-member .benifits-body .member-btn {
+    text-align: left !important; }
+  .become-a-member .benifits-body .become-member-title {
+    text-align: left !important;
+    padding: 14px 0; }
+    .become-a-member .benifits-body .become-member-title h4 {
+      font-size: 27px; }
+
+  .event-part .event-main {
+    padding: 20px 46px;
+    margin-bottom: 30px; }
+    .event-part .event-main .title h2 {
+      font-size: 28px; }
+    .event-part .event-main .event-item {
+      margin: 0 10px; }
+      .event-part .event-main .event-item .image {
+        height: auto; }
+
+  .messages .message-item {
+    margin-bottom: 30px; }
+    .messages .message-item .info {
+      margin-left: 0 !important;
+      padding: 20px !important;
+      height: 244px !important;
+      border-right: 0 !important;
+      border-bottom: 4px solid #21c58e; }
+      .messages .message-item .info::before {
+        display: none; }
+      .messages .message-item .info i {
+        display: none; }
+      .messages .message-item .info h4 {
+        padding-right: 0 !important;
+        font-size: 20px !important;
+        margin-bottom: 10px !important; }
+    .messages .message-item .image {
+      height: auto !important; }
+
+  .gallery .gallery-main .image {
+    height: auto; }
+  .gallery .blog-item {
+    margin-bottom: 30px !important; }
+
+  footer .footer-about p {
+    padding-right: 0; }
+  footer .footer-about img {
+    width: 100% !important; }
+  footer .links {
+    margin-left: 0; }
+  footer .pay-now img {
+    width: 100% !important; }
+  footer .branding {
+    text-align: left !important; }
+
+  .content-page .content-left-menu {
+    width: 100%;
+    min-height: auto;
+    position: unset;
+    margin-bottom: 40px; }
+    .content-page .content-left-menu::before {
+      display: none; }
+  .content-page .right-info .image {
+    height: 262px;
+    width: 100%; }
+  .content-page .right-info .content {
+    padding-top: 40px;
+    padding: 20px; }
+
+  .contact-us {
+    padding-top: 60px; }
+    .contact-us .contact-info {
+      margin-top: 60px; }
+
+  .activities-details-main .attach-file {
+    width: auto;
+    margin-left: 0; }
+
+  .notice {
+    padding: 0;
+    box-shadow: none; }
+
+  .gallery-main .image {
+    height: auto; }
+  .gallery-main .overlay {
+    text-align: center; }
+    .gallery-main .overlay h2 {
+      font-size: 22px !important; }
+
+  .member-top-search .title h2 {
+    font-size: 24px; }
+
+  .pagination ul li.arrow {
+    margin: 0px 0px; }
+
+  .news-details .details-info .img {
+    width: 100%;
+    height: auto; }
+  .news-details .details-info .text h1 {
+    font-size: 20px; }
+
+  .publication-main .publication-item .single-item .image {
+    padding: 20px;
+    height: auto; }
+
+  .become-member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .become-member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .become-member-panel .right-content .header-top {
+      padding: 10px 0;
+      position: relative; }
+      .become-member-panel .right-content .header-top .slider-item {
+        padding-right: 100px; }
+        .become-member-panel .right-content .header-top .slider-item p {
+          padding-left: 0;
+          margin-top: 6px; }
+      .become-member-panel .right-content .header-top .action .notification {
+        position: absolute;
+        top: 50%;
+        right: 24px;
+        transform: translateY(-50%); }
+        .become-member-panel .right-content .header-top .action .notification i {
+          margin-top: 0; }
+    .become-member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+      .become-member-panel .right-content .inner-content .apply-option .form-check-label {
+        font-size: 16px; }
+    .become-member-panel .right-content .inner-content .top-title span {
+      display: block;
+      float: unset !important;
+      margin-top: 10px; }
+
+  .become-member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .become-member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .become-member-panel .right-content .header-top {
+      padding: 10px 0; }
+      .become-member-panel .right-content .header-top .slider-item p {
+        padding-left: 0;
+        margin-top: 6px; }
+      .become-member-panel .right-content .header-top .action .notification i {
+        margin-top: 0; }
+    .become-member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-logo {
+      width: 100%;
+      text-align: center; }
+      .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-logo img {
+        width: 200px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-header .header-info {
+      width: 100%;
+      margin-bottom: 30px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-body-top .invoice-block {
+      float: unset;
+      width: 100%;
+      padding: 0 0; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-table {
+      width: 100%;
+      padding: 30px 0px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-body-info {
+      width: 100%;
+      padding: 0px 0px; }
+    .become-member-panel .right-content .payment-invoice-pdf .invoice-footer {
+      width: 100%; }
+      .become-member-panel .right-content .payment-invoice-pdf .invoice-footer::after {
+        display: none; }
+
+  .member-panel .left-sidebar {
+    width: 100%;
+    margin: 0 auto; }
+  .member-panel .right-content {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 40px; }
+    .member-panel .right-content .header-top {
+      padding: 10px 0;
+      position: relative; }
+      .member-panel .right-content .header-top .slider-item {
+        padding-right: 100px; }
+        .member-panel .right-content .header-top .slider-item p {
+          padding-left: 0;
+          margin-top: 6px; }
+      .member-panel .right-content .header-top .action .notification {
+        position: absolute;
+        top: 50%;
+        right: 24px;
+        transform: translateY(-50%); }
+        .member-panel .right-content .header-top .action .notification i {
+          margin-top: 0; }
+    .member-panel .right-content .dashboard-info .info-block {
+      margin-bottom: 30px; }
+    .member-panel .right-content .inner-content .apply-option {
+      width: 100%; }
+      .member-panel .right-content .inner-content .apply-option .form-check-label {
+        font-size: 16px; }
+    .member-panel .right-content .inner-content .top-title span {
+      display: block;
+      float: unset !important;
+      margin-top: 10px; }
+
+  .point-calculator .calculator-body .heading h1 {
+    font-size: 20px !important; }
+  .point-calculator .calculator-body .sub-heading h3 {
+    font-size: 22px;
+    margin-left: 0;
+    margin-top: 20px; }
+  .point-calculator .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px; } }
+
+/*# sourceMappingURL=responsive.css.map */

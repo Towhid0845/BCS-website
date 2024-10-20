@@ -1,0 +1,103 @@
+@import "../variable/color";
+
+
+.blog-item {
+  width: 100%;
+  background-color: $white;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: all linear .2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &::after {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -82px;
+    right: -62px;
+    content: "";
+    // background-color: rgba(206, 144, 26, 0.2);
+    background-color: rgba(26, 171, 93, 0.2);
+    z-index: 1;
+    border-radius: 50%;
+  }
+
+  .image {
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 6px;
+    position: relative;
+    border-bottom-right-radius: 100px;
+    position: relative;
+
+    &::before {
+      width: 214px;
+      height: 200px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      background-color: $themeColor;
+      z-index: 1;
+      border-bottom-right-radius: 115px;
+    }
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+      position: relative;
+      z-index: 99;
+      border-bottom-right-radius: 100px;
+      border-top-left-radius: 0;
+
+    }
+  }
+
+  .text {
+    padding: 24px;
+    min-height: 200px;
+
+    ul {
+      padding-bottom: 10px;
+
+      li {
+        display: inline-block;
+        font-size: 16px;
+        color: $themeColor;
+        font-weight: 500;
+      }
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: $black;
+      line-height: 26px;
+      transition: all linear .2s;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+
+    p {
+      color: $paraColor;
+      line-height: 26px;
+      margin-top: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+
+  &:hover .text h3 {
+    color: $themeColor;
+  }
+}

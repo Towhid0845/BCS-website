@@ -1,0 +1,2105 @@
+@media (min-width:1400px) and (max-width:1799px) {
+
+  // home page start
+  // common css part start
+  .common-container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 30px;
+  }
+
+  // navbar part start
+  nav .navbar-nav {
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+    img {
+      width: 350px;
+    }
+  }
+
+  // navbar part end
+  // banner part start
+  .banner {
+    ul {
+      position: absolute;
+      bottom: -40px;
+      left: 0;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: 364px;
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+
+  .counter {
+    .icon i {
+      font-size: 46px;
+    }
+
+    .text h4 {
+      font-size: 34px !important;
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      .become-member-title {
+        h4 {
+          font-size: 56px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      padding: 30px 50px;
+
+      .title h2 {
+        font-size: 30px;
+      }
+
+      .event-item {
+        margin: 0 10px;
+
+        .image {
+          height: 147px;
+        }
+      }
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .messages-main {
+      .message-item {
+        .image {
+          height: 249px;
+        }
+
+        .info {
+          height: 248px;
+          margin-left: 15px;
+          padding: 20px;
+
+          i {
+            right: 16px;
+          }
+
+          a {
+            margin-top: 6px;
+            font-size: 16px;
+          }
+
+          h4 {
+            padding-right: 0;
+            font-size: 22px;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  // messages part end
+  // gallery part start
+  .gallery .gallery-main .image {
+    height: 233px;
+  }
+
+  // gallery part end
+  // home page end
+  // content page start
+  .content-page {
+    .right-info {
+      .image {
+        height: 364px;
+        width: 100%;
+      }
+    }
+  }
+
+  // content page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: 232px;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 107%;
+    }
+
+    .right-content {
+      width: 97%;
+      margin-left: auto;
+    }
+
+    .payment-invoice-pdf {
+      .header-logo {
+        img {
+          width: 350px !important;
+        }
+      }
+
+      .invoice-footer {
+        &::after {
+          width: 195px;
+          right: -149px;
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 107%;
+    }
+
+    .right-content {
+      width: 97%;
+      margin-left: auto;
+    }
+  }
+
+  .calc {
+    position: fixed;
+    top: 244px;
+    right: 14px;
+  }
+
+  // member panel page end
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+
+  // home page start
+  .common-container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 30px;
+  }
+
+  // navbar part start
+  nav .navbar-nav {
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+    img {
+      width: 350px;
+    }
+  }
+
+  // navbar part end
+  // banner part start
+  .banner {
+    ul {
+      bottom: -35px;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: 314px;
+      }
+    }
+
+    .banner-item {
+      .text-slider {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+
+  .counter {
+    .icon i {
+      font-size: 46px;
+    }
+
+    .text h4 {
+      font-size: 34px !important;
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      .become-member-title {
+        h4 {
+          font-size: 56px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      .event-item {
+        margin: 0 10px;
+
+        .image {
+          height: 140px;
+        }
+      }
+
+      .title h2 {
+        font-size: 30px;
+      }
+
+      padding: 20px 40px;
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .messages-main {
+      .message-item {
+        .image {
+          height: 249px;
+        }
+
+        .info {
+          height: 248px;
+          margin-left: 15px;
+          padding: 20px;
+
+          i {
+            right: 16px;
+          }
+
+          a {
+            margin-top: 6px;
+            font-size: 16px;
+          }
+
+          h4 {
+            padding-right: 0;
+            font-size: 22px;
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  // messages part end
+  // gallery part start
+  .gallery .gallery-main .image {
+    height: 201px;
+  }
+
+  // gallery part end
+  // footer part start
+  footer {
+    .footer-about {
+      img {
+        width: 100% !important;
+      }
+
+      p {
+        padding-right: 50px;
+      }
+    }
+  }
+
+  // footer part end
+
+  // home page end
+
+  // content page start
+  .content-page {
+    .content-left-menu {
+      width: 100% !important;
+    }
+
+    .right-info {
+      .image {
+        height: 313px;
+        width: 100%;
+      }
+    }
+  }
+
+  // content page end
+  // service details page start
+  .activities-details-main .attach-file {
+    width: auto;
+  }
+
+  // service details page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: 199px;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // member list page start
+  .member-top-search {
+    ul {
+      li {
+        margin-right: 6px;
+      }
+    }
+  }
+
+  .member-list-body {
+    .member-list-item {
+      .img {
+        width: 110px;
+        height: 110px;
+      }
+
+      .more-details a {
+        padding: 7px 12px;
+        font-size: 13px;
+      }
+    }
+
+    .item-big-info h3 {
+      font-size: 18px;
+    }
+  }
+
+  // member list page end
+  // member registration page start
+  .login-3 {
+    .informeson {
+      p {
+        padding-right: 70px;
+      }
+    }
+  }
+
+  // member registration page end
+  // become a member login page start
+  .login-page {
+    .image {
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+
+  // become a member login page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 110%;
+
+      .navigation-menu {
+        ul {
+          li {
+            a {
+              font-size: 14px;
+              padding: 10px 16px;
+
+              .arrow {
+                width: 20px;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right-content {
+      width: 97%;
+      margin-left: auto;
+
+      .header-top {
+        .warn span {
+          font-size: 15px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+
+        .payment-invoice-pdf {
+          .header-logo {
+            img {
+              width: 300px !important;
+            }
+          }
+
+          .invoice-footer {
+            &::after {
+              width: 220px;
+              right: -127px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 110%;
+
+      .navigation-menu {
+        ul {
+          li {
+            a {
+              font-size: 14px;
+              padding: 10px 16px;
+
+              .arrow {
+                width: 20px;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right-content {
+      width: 97%;
+      margin-left: auto;
+
+      .header-top {
+        .warn span {
+          font-size: 15px;
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          padding: 20px !important;
+        }
+      }
+    }
+  }
+
+  // member panel page end
+  // membership point calculator page start
+  .point-calculator {
+    .calculator-body {
+      .sub-heading {
+        h3 {
+          font-size: 22px;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .calc {
+      position: fixed;
+      top: 244px;
+      right: 14px;
+    }
+  }
+
+  // membership point calculator page end
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+  // home page start
+  .common-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 30px;
+  }
+
+  // banner part start
+  .banner {
+    ul {
+      display: none !important;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: 263px;
+      }
+    }
+
+    .banner-item {
+      .text-slider {
+        h1 {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+  .counter {
+    .text {
+      h4 {
+        font-size: 28px !important;
+      }
+
+      p {
+        font-size: 16px !important
+      }
+    }
+
+    .icon {
+      i {
+        font-size: 36px;
+      }
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      padding: 25px;
+
+      &::before {
+        display: none !important;
+      }
+
+      .become-member-title {
+        h4 {
+          font-size: 54px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      .title h2 {
+        font-size: 28px;
+      }
+
+      padding: 23px 43px !important;
+
+      .event-item {
+        margin: 0 8px;
+
+        .image {
+          height: 120px;
+        }
+      }
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .messages-main {
+      .message-item {
+        .image {
+          height: 190px;
+        }
+
+        .info {
+          height: 266px;
+          margin-left: 10px;
+          padding: 20px;
+
+          h4 {
+            font-size: 18px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            padding-right: 0;
+          }
+
+          i {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // messages part end
+  // gallery part start
+  .gallery .gallery-main .image {
+    height: 169px;
+  }
+
+  // gallery part end
+  // footer part start
+  footer {
+    .footer-about {
+      img {
+        width: 100% !important;
+      }
+
+      p {
+        padding-right: 0;
+      }
+    }
+  }
+
+  // footer part end
+
+  // home page end
+  // content page start
+  .content-page {
+    .content-left-menu {
+      width: 100% !important;
+    }
+
+    .right-info {
+      .image {
+        height: 226px;
+        width: 100%;
+      }
+    }
+  }
+
+  // content page end
+  // service details page start
+  .activities-details-main .attach-file {
+    width: auto;
+  }
+
+  // service details page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: 223px;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // news details page start
+  .news-details {
+    .details-info {
+      .img {
+        width: 100%;
+        height: 435px;
+      }
+
+      .text h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  // news details page end
+  // become a member login page start
+  .login-page {
+    .image {
+      img {
+        width: 100% !important;
+      }
+    }
+
+    .register-form {
+      .form-heading {
+        h2 {
+          font-weight: 700;
+          font-size: 22px;
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  // become a member login page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+    }
+
+    .payment-invoice-pdf {
+      .header-logo {
+        img {
+          width: 300px !important;
+        }
+      }
+
+      .invoice-footer {
+        &::after {
+          width: 204px;
+          right: -149px;
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+    }
+  }
+
+  // member panel page end
+  // membership point calculator page start
+  .point-calculator {
+    .calculator-body {
+      .sub-heading {
+        h3 {
+          font-size: 22px;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .calc {
+      position: fixed;
+      top: 244px;
+      right: 14px;
+    }
+  }
+
+  // membership point calculator page end
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+  // home page start
+  .common-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 30px;
+  }
+
+  // banner part start
+  .banner {
+    ul {
+      display: none !important;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: 296px;
+      }
+    }
+
+    .banner-item {
+      .text-slider {
+        position: relative;
+        padding: 30px 0;
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+  .counter {
+    .counter-item-main {
+      padding: 20px 0;
+    }
+
+    .icon i {
+      font-size: 40px;
+    }
+
+    .counter-main {
+      .member-item {
+        margin: 20px 0;
+      }
+
+      .text h4 {
+        font-size: 28px;
+      }
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      &::before {
+        display: none;
+      }
+
+      .promo_area {
+        display: none;
+      }
+
+      .member-btn {
+        text-align: left !important;
+      }
+
+      .become-member-title {
+        text-align: left !important;
+        padding: 14px 0;
+
+        h4 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      padding: 20px 46px;
+      margin-bottom: 30px;
+
+      .title h2 {
+        font-size: 30px;
+      }
+
+      .event-item {
+        margin: 0 10px;
+
+        .image {
+          height: 137px;
+        }
+      }
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .message-item {
+      margin-bottom: 30px;
+
+      .info {
+        margin-left: 15px !important;
+        padding: 20px !important;
+        height: 244px !important;
+
+        i {
+          display: none;
+        }
+
+        h4 {
+          padding-right: 0 !important;
+          font-size: 20px !important;
+          margin-bottom: 10px !important;
+        }
+      }
+
+      .image {
+        height: 235px !important;
+      }
+    }
+  }
+
+  // messages part end
+  // gallery part start
+  .gallery {
+    .gallery-main {
+      .image {
+        height: 250px;
+      }
+    }
+
+    .blog-item {
+      margin-bottom: 30px !important;
+    }
+  }
+
+  // gallery part end
+  // footer part start
+  footer {
+    .footer-about {
+      img {
+        width: 100%;
+      }
+    }
+
+    .links {
+      margin-left: 0;
+    }
+  }
+
+  // footer part end
+  // home page end
+  // content page start
+  .content-page {
+    .content-left-menu {
+      width: 100%;
+      min-height: auto;
+      position: unset;
+      margin-bottom: 40px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .right-info .image {
+      height: 262px;
+      width: 100%;
+    }
+  }
+
+  // content page end
+  // contact page start
+  .contact-us {
+    padding-top: 60px;
+
+    .contact-info {
+      margin-top: 60px;
+    }
+  }
+
+  // contact page end
+  // service details page start
+  .activities-details-main .attach-file {
+    width: auto;
+  }
+
+  // service details page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: 337px;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // news details page start
+  .news-details {
+    .details-info {
+      .img {
+        width: 100%;
+        height: 435px;
+      }
+
+      .text h1 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  // news details page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+      }
+    }
+
+    .payment-invoice-pdf {
+      .header-logo {
+        img {
+          width: 250px !important;
+        }
+      }
+
+      .invoice-footer {
+        &::after {
+          width: 175px;
+          right: -109px;
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // member panel page end
+  // membership point calculator page start
+  .point-calculator {
+    .calculator-body {
+      .sub-heading {
+        h3 {
+          font-size: 22px;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .calc {
+      position: fixed;
+      top: 244px;
+      right: 14px;
+    }
+  }
+
+  // membership point calculator page end
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+  // home page start
+  .common-container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 30px;
+  }
+
+  // banner part start
+  .banner {
+    ul {
+      display: none !important;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: 219px;
+      }
+    }
+
+    .banner-item {
+      .text-slider {
+        position: relative;
+        padding: 30px 0;
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+  .counter {
+    .counter-item-main {
+      padding: 20px 0;
+    }
+
+    .icon i {
+      font-size: 40px;
+    }
+
+    .counter-main {
+      .member-item {
+        margin: 20px 0;
+      }
+
+      .text h4 {
+        font-size: 28px;
+      }
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      &::before {
+        display: none;
+      }
+
+      .promo_area {
+        display: none;
+      }
+
+      .member-btn {
+        text-align: left !important;
+      }
+
+      .become-member-title {
+        text-align: left !important;
+        padding: 14px 0;
+
+        h4 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      padding: 20px 46px;
+      margin-bottom: 30px;
+
+      .title h2 {
+        font-size: 30px;
+      }
+
+      .event-item {
+        margin: 0 10px;
+
+        .image {
+          height: 95px;
+        }
+      }
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .message-item {
+      margin-bottom: 30px;
+
+      .info {
+        margin-left: 15px !important;
+        padding: 20px !important;
+        height: 244px !important;
+
+        i {
+          display: none;
+        }
+
+        h4 {
+          padding-right: 0 !important;
+          font-size: 20px !important;
+          margin-bottom: 10px !important;
+        }
+      }
+
+      .image {
+        height: 235px !important;
+      }
+    }
+  }
+
+  // messages part end
+  // gallery part start
+  .gallery {
+    .gallery-main {
+      .image {
+        height: 185px;
+      }
+    }
+
+    .gallery-button {
+      ul.nav {
+        padding: 5px 25px;
+      }
+    }
+
+    .blog-item {
+      margin-bottom: 30px !important;
+    }
+  }
+
+  // gallery part end
+  // footer part start
+  footer {
+    .footer-about {
+      img {
+        width: 100%;
+      }
+    }
+
+    .links {
+      margin-left: 0;
+    }
+
+    .pay-now {
+      img {
+        width: 100%;
+      }
+    }
+
+    .branding {
+      text-align: left !important;
+      margin-top: 8px;
+    }
+  }
+
+  // footer part end
+  // home page end
+  // content page start
+  .content-page {
+    .content-left-menu {
+      width: 100%;
+      min-height: auto;
+      position: unset;
+      margin-bottom: 40px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .right-info .image {
+      height: 262px;
+      width: 100%;
+    }
+  }
+
+  // content page end
+  // contact page start
+  .contact-us {
+    padding-top: 60px;
+
+    .contact-info {
+      margin-top: 60px;
+    }
+  }
+
+  // contact page end
+  // service details page start
+  .activities-details-main .attach-file {
+    width: auto;
+    margin-left: 0;
+  }
+
+  // service details page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: 249px;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // news details page start
+  .news-details {
+    .details-info {
+      .img {
+        width: 100%;
+        height: 323px;
+      }
+
+      .text h1 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // news details page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .header-top {
+        padding: 10px 0;
+
+        .slider-item p {
+          padding-left: 0;
+          margin-top: 6px;
+        }
+
+        .action {
+          .notification i {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+      }
+
+      .payment-invoice-pdf {
+        .invoice-header {
+          .header-logo {
+            width: 100%;
+            text-align: center;
+
+            img {
+              width: 250px;
+            }
+          }
+
+          .header-info {
+            width: 100%;
+            margin-bottom: 30px;
+          }
+        }
+
+        .invoice-body-top {
+          .invoice-block {
+            float: unset;
+            width: 100%;
+            padding: 0 0;
+          }
+        }
+
+        .invoice-table {
+          width: 100%;
+          padding: 30px 0px;
+        }
+
+        .invoice-body-info {
+          width: 100%;
+          padding: 0px 0px;
+        }
+
+        .invoice-footer {
+          width: 100%;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .header-top {
+        padding: 10px 0;
+
+        .slider-item p {
+          padding-left: 0;
+          margin-top: 6px;
+        }
+
+        .action {
+          .notification i {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // member panel page end
+  // membership point calculator page start
+  .point-calculator {
+    .calculator-body {
+      .sub-heading {
+        h3 {
+          font-size: 22px;
+          margin-left: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .calc {
+      position: fixed;
+      top: 244px;
+      right: 14px;
+    }
+  }
+
+  // membership point calculator page end
+}
+
+@media (max-width:575.98px) {
+
+  // breadcrumb page start
+  .bread-crumb {
+    .text {
+      display: unset !important;
+
+      ul {
+        padding-top: 10px !important;
+
+        li {
+          &::before {
+            right: 10px !important;
+          }
+
+          a {
+            margin-left: 0 !important;
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  // breadcrumb page end
+  // home page start
+  .common-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .common-title h3 {
+    font-size: 26px;
+  }
+
+  // banner part start
+  .banner {
+    ul {
+      display: none !important;
+    }
+
+    .image-slider {
+      .slider-item {
+        height: auto;
+      }
+    }
+
+    .text-slider {
+      padding: 30px 0;
+
+      h1 {
+        font-size: 28px !important;
+      }
+    }
+  }
+
+  // banner part end
+  // counter part start
+  .counter {
+    .icon {
+      i {
+        color: #21c58e;
+        font-size: 42px;
+      }
+    }
+
+    .counter-main {
+      .counter-item-main {
+        padding: 20px 0 !important;
+      }
+
+      .member-item {
+        margin: 20px 0;
+      }
+
+      .text h4 {
+        font-size: 32px;
+      }
+    }
+  }
+
+  // counter part end
+  // become a member part start
+  .become-a-member {
+    .benifits-body {
+      &::before {
+        display: none;
+      }
+
+      .promo_area {
+        display: none;
+      }
+
+      .member-btn {
+        text-align: left !important;
+      }
+
+      .become-member-title {
+        text-align: left !important;
+        padding: 14px 0;
+
+        h4 {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+
+  // become a member part end
+  // event part start
+  .event-part {
+    .event-main {
+      padding: 20px 46px;
+      margin-bottom: 30px;
+
+      .title h2 {
+        font-size: 28px;
+      }
+
+      .event-item {
+        margin: 0 10px;
+
+        .image {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  // event part end
+  // messages part start
+  .messages {
+    .message-item {
+      margin-bottom: 30px;
+
+      .info {
+        margin-left: 0 !important;
+        padding: 20px !important;
+        height: 244px !important;
+        border-right: 0 !important;
+        border-bottom: 4px solid #21c58e;
+
+        &::before {
+          display: none;
+        }
+
+        i {
+          display: none;
+        }
+
+        h4 {
+          padding-right: 0 !important;
+          font-size: 20px !important;
+          margin-bottom: 10px !important;
+        }
+      }
+
+      .image {
+        height: auto !important;
+      }
+    }
+  }
+
+  // messages part end
+
+  // gallery part start
+  .gallery {
+    .gallery-main {
+      .image {
+        height: auto;
+      }
+    }
+
+    .blog-item {
+      margin-bottom: 30px !important;
+    }
+  }
+
+  // gallery part end
+  // footer part start
+  footer {
+    .footer-about {
+      p {
+        padding-right: 0;
+      }
+
+      img {
+        width: 100% !important;
+      }
+    }
+
+    .links {
+      margin-left: 0;
+    }
+
+    .pay-now {
+      img {
+        width: 100% !important;
+      }
+    }
+
+    .branding {
+      text-align: left !important;
+    }
+  }
+
+  // footer part end
+  // home page end
+  // content page start
+  .content-page {
+    .content-left-menu {
+      width: 100%;
+      min-height: auto;
+      position: unset;
+      margin-bottom: 40px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .right-info {
+      .image {
+        height: 262px;
+        width: 100%;
+      }
+
+      .content {
+        padding-top: 40px;
+        padding: 20px;
+      }
+    }
+  }
+
+  // content page end
+  // contact page start
+  .contact-us {
+    padding-top: 60px;
+
+    .contact-info {
+      margin-top: 60px;
+    }
+  }
+
+  // contact page end
+  // service details page start
+  .activities-details-main .attach-file {
+    width: auto;
+    margin-left: 0;
+  }
+
+  // service details page end
+  // notice page start
+  .notice {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  // notice page end
+  // album page start
+  .gallery-main {
+    .image {
+      height: auto;
+    }
+
+    .overlay {
+      text-align: center;
+
+      h2 {
+        font-size: 22px !important;
+      }
+    }
+  }
+
+  // album page end
+  // member list page start
+  .member-top-search {
+    .title {
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .pagination ul li.arrow {
+    margin: 0px 0px;
+  }
+
+  // member list page end
+  // news details page start
+  .news-details {
+    .details-info {
+      .img {
+        width: 100%;
+        height: auto;
+      }
+
+      .text h1 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // news details page end
+  // publication page start
+  .publication-main {
+    .publication-item {
+      .single-item {
+        .image {
+          padding: 20px;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  // publication page end
+  // become a member panel page start
+  .become-member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .header-top {
+        padding: 10px 0;
+        position: relative;
+
+        .slider-item {
+          padding-right: 100px;
+
+          p {
+            padding-left: 0;
+            margin-top: 6px;
+          }
+        }
+
+        .action {
+          .notification {
+            position: absolute;
+            top: 50%;
+            right: 24px;
+            transform: translateY(-50%);
+
+            i {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+
+          .form-check-label {
+            font-size: 16px;
+          }
+        }
+
+        .top-title {
+          span {
+            display: block;
+            float: unset !important;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .become-member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .header-top {
+        padding: 10px 0;
+
+        .slider-item p {
+          padding-left: 0;
+          margin-top: 6px;
+        }
+
+        .action {
+          .notification i {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+        }
+      }
+
+      .payment-invoice-pdf {
+        .invoice-header {
+          .header-logo {
+            width: 100%;
+            text-align: center;
+
+            img {
+              width: 200px;
+            }
+          }
+
+          .header-info {
+            width: 100%;
+            margin-bottom: 30px;
+          }
+        }
+
+        .invoice-body-top {
+          .invoice-block {
+            float: unset;
+            width: 100%;
+            padding: 0 0;
+          }
+        }
+
+        .invoice-table {
+          width: 100%;
+          padding: 30px 0px;
+        }
+
+        .invoice-body-info {
+          width: 100%;
+          padding: 0px 0px;
+        }
+
+        .invoice-footer {
+          width: 100%;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  // become a member panel page end
+  // member panel page start
+  .member-panel {
+    .left-sidebar {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .right-content {
+      width: 100%;
+      margin-left: auto;
+      margin-top: 40px;
+
+      .header-top {
+        padding: 10px 0;
+        position: relative;
+
+        .slider-item {
+          padding-right: 100px;
+
+          p {
+            padding-left: 0;
+            margin-top: 6px;
+          }
+        }
+
+        .action {
+          .notification {
+            position: absolute;
+            top: 50%;
+            right: 24px;
+            transform: translateY(-50%);
+
+            i {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+
+      .dashboard-info {
+        .info-block {
+          margin-bottom: 30px;
+        }
+      }
+
+      .inner-content {
+        .apply-option {
+          width: 100%;
+
+          .form-check-label {
+            font-size: 16px;
+          }
+        }
+
+        .top-title {
+          span {
+            display: block;
+            float: unset !important;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  // member panel page end
+  // membership point calculator page start
+  .point-calculator {
+    .calculator-body {
+      .heading h1 {
+        font-size: 20px !important;
+      }
+
+      .sub-heading {
+        h3 {
+          font-size: 22px;
+          margin-left: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .calc {
+      position: fixed;
+      top: 244px;
+      right: 14px;
+    }
+  }
+
+  // membership point calculator page end
+
+}

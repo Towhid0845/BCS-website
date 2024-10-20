@@ -1,0 +1,65 @@
+@import "../variable/color";
+
+
+.counter {
+  .common-title {
+    h3 {
+      color: $white;
+
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+
+  .counter-item-main {
+    padding: 40px 0;
+  }
+}
+
+.counter-bg {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 240px;
+}
+
+.counter-bg .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 22, 59, .9);
+  padding-top: 54px;
+}
+
+.counter-bg .overlay .title h2 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+.counter .counter-item-main {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-top: -88px;
+}
+
+.counter .icon i {
+  color: $themeColor;
+  font-size: 60px;
+}
+
+.counter .counter-main .text h4 {
+  font-size: 42px;
+  font-weight: 700;
+  color: $themeColor;
+  padding-top: 12px;
+}
+
+.counter .counter-main .text p {
+  font-size: 20px;
+  color: #21375B;
+  font-weight: 500;
+}

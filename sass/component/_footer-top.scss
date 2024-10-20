@@ -1,0 +1,47 @@
+@import "../variable/color";
+
+.footer-top {
+  padding-top: 100px;
+
+  .footer-top-bg {
+    // background-color: rgba(206, 144, 26, 0.2);
+    background-color: rgba(26, 171, 93, 0.2);
+    padding: 20px 0;
+
+    .icon {
+      li {
+        position: relative;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+        }
+
+        span {
+          padding-left: 100px;
+          line-height: 36px;
+          font-size: 26px;
+          font-weight: 500;
+          padding-right: 50px;
+        }
+      }
+    }
+
+    .phone {
+      border-left: 3px solid red;
+      border-right: 3px solid red;
+      h4 {
+        font-size: 38px;
+        font-weight: 600;
+      }
+    }
+    .time{
+      p{
+        font-size: 22px;
+        font-weight: 400;
+      }
+    }
+  }
+}

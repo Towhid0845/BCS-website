@@ -1,0 +1,104 @@
+@import "../variable/color";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: $paraColor;
+}
+
+i {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+::selection {
+  background-color: $themeColor;
+  color: $white;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: $black;
+}
+
+.common-container {
+  // padding: 0 80px;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.common-title {
+  padding-bottom: 60px;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $black;
+    position: relative;
+    text-transform: uppercase;
+
+    &::after {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 2px;
+      background-color: $black;
+      content: "";
+    }
+  }
+}
+
+.view-more {
+  a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    color: $white;
+    background-color: $secondary;
+    transition: all linear .2s;
+
+    &:hover {
+      color: #fff;
+      background-color: $themeColor;
+      border-color: $themeColor;
+    }
+  }
+}

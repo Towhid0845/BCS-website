@@ -1,0 +1,106 @@
+@import "../variable/color";
+
+
+
+.ecs-body {
+
+  .ecs-title h4 {
+    background-color: #637087;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 12px;
+    font-size: 22px;
+  }
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: $themeColor;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+  }
+
+  .accordion-button::after {
+    background-image: none;
+  }
+
+  .accordion-button .arrow {
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    transition: all linear .3s;
+  }
+
+  .accordion-button.collapsed .arrow {
+    transform: rotate(180deg);
+  }
+
+  .ecs-member-list {
+    width: 100%;
+    min-height: 120px;
+    background-color: #fff;
+    // box-shadow: 0 6px 25px rgb(0 0 0 / 7%);
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+  }
+
+  .ecs-member-list .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 9px;
+  }
+
+  .ecs-member-list .image img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .ecs-member-list .text h4 {
+    font-size: 18px;
+    color: $themeColor;
+    font-weight: 600;
+  }
+
+  .ecs-member-list .text {
+    width: 238px;
+    padding-right: 20px;
+  }
+
+  .ecs-member-list .text p {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+
+  .accordion-body {
+    padding: 1rem 1rem;
+  }
+
+  .accordion-body .text ul li {
+    list-style: none;
+    font-size: 14px;
+  }
+
+  .accordion-body tbody td {
+    vertical-align: middle;
+  }
+
+  .accordion-body tbody h4 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .accordion-body tbody p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+}

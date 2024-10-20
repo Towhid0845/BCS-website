@@ -1,0 +1,73 @@
+@import "../variable/color";
+
+.news-details .details-info {
+  width: 100%;
+}
+
+.news-details .details-info .img {
+  width: 800px;
+  height: 500px;
+  position: relative;
+}
+
+.news-details .details-info .img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.news-details .details-info .text .date {
+  background-color: $themeColor;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+.news-details .details-info .text h1 {
+  color: #21375B;
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.news-details .details-info .text p {
+  margin-top: 20px;
+}
+
+.news-details .details-info .news-details-mid-text {
+  border-left: 3px solid $themeColor;
+}
+
+.news-details .details-info .news-details-mid-text h3 {
+  background-color: #F3F4F8;
+  color: #21375B;
+  padding: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.news-details .details-info .news-details-mid-text h3::before {
+  width: 50px;
+  height: 60px;
+  background-color: #DBDDE4;
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  content: "";
+  clip-path: polygon(27% 0%, 100% 0%, 73% 100%, 0% 100%);
+}
+
+.news-details .details-info .news-details-mid-text h3::after {
+  width: 50px;
+  height: 60px;
+  background-color: #DBDDE4;
+  position: absolute;
+  bottom: 0;
+  right: 140px;
+  content: "";
+  clip-path: polygon(27% 0%, 100% 0%, 73% 100%, 0% 100%);
+}

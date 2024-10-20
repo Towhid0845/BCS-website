@@ -1,0 +1,279 @@
+@import "../variable/color";
+
+
+#particles-js {
+  position: unset;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #C98D12, #d73131c2);
+  margin-bottom: -80px;
+}
+
+.member-login {
+  padding: 200px 0;
+}
+
+
+.member-login .form-section {
+  width: 500px !important;
+  margin: 0 auto;
+  width: 100%;
+  background: #fff;
+  padding: 50px;
+  border-radius: 30px;
+  // box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+  text-align: left;
+  position: relative;
+  z-index: 0;
+}
+
+.member-login .form-section:before {
+  content: "";
+  width: 100%;
+  height: 91px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../images/img-6.png) top left repeat;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 30px 30px 0 0;
+}
+
+.member-login .form-box {
+  width: 100%;
+}
+
+.member-login .login-inner-form .form-group {
+  margin-bottom: 35px;
+}
+
+.member-login .login-inner-form .form-box {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.member-login .login-inner-form .form-control {
+  padding: 14.5px 0;
+  font-size: 16px;
+  outline: none;
+  background: transparent !important;
+  color: #535353;
+  font-weight: 500;
+  border: none;
+  border-bottom: solid 2px #bdbdbd;
+  border-radius: 0;
+}
+
+.member-login .login-inner-form img {
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.member-login .login-inner-form .form-box .form-control {
+  float: left;
+  width: 100%;
+  padding: 13px 50px 13px 30px;
+}
+
+.member-login .login-inner-form .form-box i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+  color: #777575;
+}
+
+.member-login .login-inner-form .form-box .show-pass {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+
+.member-login .login-inner-form .form-box .show-pass i {
+  cursor: pointer;
+}
+
+.member-login .info {
+  color: #fff;
+  margin: 0 117px 0 auto;
+  text-align: right;
+  max-width: 700px;
+}
+
+.member-login .bg-img {
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.member-login .login-inner-form .forgot {
+  margin: 0;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  float: right;
+}
+
+.member-login .btn-theme {
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  border-radius: 3px;
+}
+
+.member-login .login-inner-form p {
+  margin: 0;
+  color: #e7e7e7;
+}
+
+.member-login .login-inner-form p a {
+  color: #e7e7e7;
+}
+
+.login-46 .login-inner-form .btn-theme.focus,
+.btn-theme:focus {
+  box-shadow: none;
+}
+
+.member-login .logo {
+  margin-bottom: 15px;
+}
+
+.member-login .logo img {
+  height: 25px;
+}
+
+.member-login h1 {
+  margin: 0 0 35px;
+  font-size: 23px;
+  color: #040404;
+  font-weight: 400;
+}
+
+.member-login .typing>* {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 3s steps(50);
+}
+
+@keyframes typingAnim {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+.member-login .form-check-input:checked {
+  background-color: #039ae0 !important;
+  border-color: #039ae0 !important;
+}
+
+.member-login .form-check-input:focus {
+  box-shadow: none;
+}
+
+.member-login .login-inner-form .terms {
+  margin-left: 3px;
+}
+
+.member-login .login-inner-form .checkbox {
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+
+.member-login .login-inner-form .form-check {
+  float: left;
+  margin-bottom: 0;
+}
+
+.member-login .login-inner-form .form-check a {
+  color: #535353;
+  float: right;
+}
+
+.member-login .login-inner-form .form-check-label {
+  padding-left: 5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #535353;
+}
+
+.member-login .btn {
+  box-shadow: none !important;
+}
+
+.member-login .btn-lg {
+  padding: 0 50px;
+  line-height: 50px;
+}
+
+.member-login .btn-md {
+  padding: 0 50px;
+  line-height: 45px;
+}
+
+.member-login .btn-primary {
+  background-image: linear-gradient(to bottom, #C98D12, #eead2a);
+}
+
+.member-login .btn-primary:hover {
+  background-image: linear-gradient(to bottom, #a77208, #d49923);
+}
+
+.member-login .form-section a {
+  text-decoration: none;
+}
+
+.member-login .form-section .form-check-input {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  position: absolute;
+  border: 2px solid #bdbdbd;
+  border-radius: 0;
+  background-color: #fff;
+  margin-left: -22px;
+}
+
+.member-login .login-inner-form .checkbox a {
+  font-size: 16px;
+  color: #535353;
+  float: right;
+}
+
+.member-login .form-section p {
+  font-size: 16px;
+  color: #535353;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.member-login .form-section p a {
+  color: #535353;
+}
+
+/** MEDIA **/
+@media (max-width: 575px) {
+  .member-login .form-section {
+    width: auto !important;
+  }
+}
+
+/** Login 6 end **/

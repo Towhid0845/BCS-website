@@ -1,0 +1,142 @@
+@import "../variable/color";
+
+.payment-invoice-pdf {
+  background-color: #fff;
+  margin: 0 auto;
+
+  .invoice-header {
+    width: 100%;
+    height: 120px;
+    background-color: #F0F0F0;
+
+    .header-logo {
+      width: 50%;
+      float: left;
+      padding: 30px;
+    }
+
+    .header-info {
+      width: 50%;
+      height: 140px;
+      background-image: linear-gradient(to bottom, #21c58e, #5bb1ef);
+      float: left;
+      border-bottom-left-radius: 130px;
+      padding-right: 30px;
+
+      .info-content {
+        float: right;
+        margin: 24px 0;
+
+        h3 {
+          font-size: 26px;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+
+        ul li {
+          color: #fff;
+          margin: 4px 0;
+        }
+
+      }
+    }
+  }
+
+  .invoice-body-top {
+    width: 100%;
+    margin-top: 40px;
+
+    .invoice-block {
+      float: left;
+      width: 50%;
+      padding: 0 30px;
+
+      ul li {
+        margin: 5px 0;
+        color: #535353;
+
+      }
+
+      h5 {
+        font-size: 18px;
+        color: #85C21A;
+        margin-bottom: 5px;
+      }
+
+      h4 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      .text-right {
+        float: right;
+      }
+    }
+  }
+
+  .invoice-table {
+    width: 100%;
+    padding: 30px 30px;
+  }
+
+  .invoice-body-info {
+    width: 100%;
+    padding: 0px 30px;
+
+    h5 {
+      font-size: 17px;
+      font-weight: 400;
+      padding-bottom: 20px;
+    }
+
+    h4 {
+      font-size: 17px;
+      font-weight: 400;
+      padding: 20px 0;
+    }
+  }
+
+  .invoice-footer {
+    width: 83%;
+    background-color: #F0F0F0;
+    margin-top: 40px;
+    border-top-right-radius: 200px;
+    padding: 25px 0px 20px 30px;
+    position: relative;
+
+    ul li {
+      color: #454545 !important;
+      font-size: 14px;
+      padding-right: 15px;
+      font-weight: 400;
+      display: inline-block;
+
+      i {
+        padding-right: 5px;
+        font-size: 14px;
+      }
+
+      span {
+        color: #454545 !important;
+      }
+    }
+
+    &::after {
+      width: 307px;
+      height: 38px;
+      background-image: linear-gradient(to bottom, #5bb1ef, #21c58e);
+      border-top-left-radius: 64px;
+      position: absolute;
+      right: -215px;
+      bottom: 0;
+      content: "";
+    }
+  }
+}
+
+
+.clr {
+  clear: both;
+}

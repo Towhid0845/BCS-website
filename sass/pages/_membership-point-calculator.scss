@@ -1,0 +1,158 @@
+@import "../variable/color";
+
+.point-calculator {
+  background: url(../images/pr-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .overlay {
+    background-color: rgba(25, 31, 203, 0.4);
+    padding: 60px 0;
+  }
+
+  .calculator-body {
+    background-color: $white;
+    min-height: 800px;
+    padding-bottom: 40px;
+
+    .heading {
+      text-align: center;
+      padding: 40px;
+      background-color: $themeColor;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        color: $white;
+        margin-bottom: 14px;
+      }
+
+      a {
+        background-color: $white;
+        padding: 5px 10px;
+        color: $themeColor;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+
+    .sub-heading {
+      padding: 30px 40px;
+
+      h3 {
+        font-size: 22px;
+        margin-left: 45px;
+      }
+
+      a {
+        background-color: $black;
+        padding: 5px 20px;
+        padding-left: 30px;
+        color: $white;
+        font-size: 16px;
+        font-weight: 600;
+        clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $themeColor;
+        }
+      }
+    }
+
+    .main-info {
+      padding: 0 40px;
+
+      .info-item {
+        h5 {
+          font-size: 16px;
+          background-color: #d4d4d4;
+          padding: 6px;
+        }
+
+        .form-select {
+          border: 1px solid #000 !important;
+          font-size: 14px;
+          height: 30px;
+          line-height: 15px;
+        }
+
+        .form-label {
+          margin-bottom: .2rem;
+        }
+      }
+    }
+
+    .point-footer {
+      padding: 0 40px;
+
+      .form-submit {
+        background-color: $secondary;
+        font-size: 16px;
+        font-weight: 600;
+        color: $white;
+        border: 0;
+        padding: 10px 20px;
+        transition: all linear .2s;
+        margin-top: 20px;
+
+        &:hover {
+          background-color: $themeColor;
+        }
+      }
+    }
+  }
+}
+
+.calc {
+  position: fixed;
+  top: 30%;
+  right: 190px;
+}
+
+.calc-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  background: $white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 30px;
+  animation: circle 2s infinite alternate;
+
+  span {
+    color: $themeColor;
+    // @include font(44px, 500);
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+  }
+}
+
+@keyframes circle {
+  0% {
+    margin-top: 20px;
+  }
+
+  25% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}

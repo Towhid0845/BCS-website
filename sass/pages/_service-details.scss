@@ -1,0 +1,76 @@
+@import "../variable/color";
+
+
+.activities-details-main {
+  .title {
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      background-color: $black;
+      border-radius: 4px;
+      padding: 14px;
+      color: $white;
+      box-shadow: 0 10px 14px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .single-info {
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      position: relative;
+      padding-top: 10px;
+
+      i {
+        width: 40px;
+        height: 40px;
+        background-color: #f1f1f1;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 14px;
+        position: absolute;
+        top: 0;
+        left: -60px;
+      }
+    }
+
+    ul {
+      padding-top: 16px;
+      margin-bottom: 0;
+
+      li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+
+  .attach-file {
+    width: 800px;
+    .table {
+
+      tr,
+      th,
+      td {
+        vertical-align: middle;
+      }
+
+      a {
+        width: 40px;
+        height: 40px;
+        background-color: $themeColor;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: $white;
+      }
+    }
+  }
+
+  .custom-ps {
+    margin-left: 60px;
+    margin-top: 24px;
+  }
+}
